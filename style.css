@@ -64,9 +64,9 @@ body,html{/*sets the margins for all pages to start at 0*/
 
 .sidebar{
   height: 100%; /*takes up whole page but i couldnt cut the gap even if i moved where it started */
-  width: 160vw; /*set width*/
+  width: 180px; /*set width*/
   position: fixed; /*fixed Sidebar*/
-  left: 1520px;
+  left: 1500px;
   background-color: #95ccbb; /*black*/
   display: flex;
   align-items: flex-start;
