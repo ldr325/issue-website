@@ -1,6 +1,8 @@
 body{
   font-family: sans-serif; /* sets the font for pages */
   background-color: /*#357844*/#02ba74; /*background color for all pages*/
+  /* THIS NEW */
+
 }
 
 body,html{/*sets the margins for all pages to start at 0*/
@@ -14,6 +16,8 @@ body,html{/*sets the margins for all pages to start at 0*/
   position: fixed; /* so it stays at top of page and doesnt move*/
   top: 200px;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .navbar a{ /* edits the text inside the nav bar and moves the text so they are next to each other and not on top of each other*/
@@ -33,6 +37,8 @@ body,html{/*sets the margins for all pages to start at 0*/
   width: 100%;
   background-image: url('https://nationaleczema.org/wp-content/uploads/2017/05/health-care--e1495141013610.jpg'); /*url for image wasnt grabbing locally*/
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 #TitleText{ /*font size and color for titile*/
@@ -62,8 +68,9 @@ body,html{/*sets the margins for all pages to start at 0*/
   position: fixed; /*fixed Sidebar*/
   left: 1520px;
   background-color: #95ccbb; /*black*/
-  overflow-x: hidden; /*disable horizontal scroll*/
-  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .sidebar2{ /*same as above but for page 2 and is on the left side*/
@@ -72,8 +79,9 @@ body,html{/*sets the margins for all pages to start at 0*/
   position: fixed;
   left:0;
   background-color: #95ccbb;
-  overflow-x: hidden;
-  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 #miniTitle{ /*underlines sources in sidebar*/
@@ -101,16 +109,25 @@ body,html{/*sets the margins for all pages to start at 0*/
   margin-left: 150px;
   margin-right: 300px;
   font-size: 16pt;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .content2{ /* same as abive but for page2*/
   margin-left: 300px;
   margin-right: 300px;
   font-size: 16pt;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .content3{ /*same as above but for page3*/
   margin-left: 75px;
   margin-right: 300px;
   font-size: 16pt;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
