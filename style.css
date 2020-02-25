@@ -43,28 +43,28 @@ body,html{/*sets the margins for all pages to start at 0*/
 
 #TitleText{ /*font size and color for titile*/
   font-size: 64pt;
-  color: #002970;
+  color: #08a600;
 }
 
 .contentSectionCont{
-  margin-top: 300px; /*where the main content will start a bit after the nav bar*/
+  margin-top: 40vmin; /*where the main content will start a bit after the nav bar*/
 }
 
 .sectionHeader{
-  margin-left: 100px; /*so that the section header doesnt start exactlt at 0 and loads in weird*/
+  margin-left: 10vh; /*so that the section header doesnt start exactlt at 0 and loads in weird*/
 }
 
 .sectionHeader2{
-  margin-left: 180px; /*same as sectionHeader but for page 2*/
+  margin-left: 18vh; /*same as sectionHeader but for page 2*/
 }
 
 .sectionHeader3{
-  margin-left: 50px;/*same as above but for page 3*/
+  margin-left: 50vw;/*same as above but for page 3*/
 }
 
 .sidebar{
   height: 100%; /*takes up whole page but i couldnt cut the gap even if i moved where it started */
-  width: 160px; /*set width*/
+  width: 160vw; /*set width*/
   position: fixed; /*fixed Sidebar*/
   left: 1520px;
   background-color: #95ccbb; /*black*/
@@ -118,16 +118,10 @@ body,html{/*sets the margins for all pages to start at 0*/
   margin-left: 300px;
   margin-right: 300px;
   font-size: 16pt;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
 }
 
 .content3{ /*same as above but for page3*/
   margin-left: 75px;
   margin-right: 300px;
   font-size: 16pt;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
 }
