@@ -47,7 +47,7 @@ body,html{/*sets the margins for all pages to start at 0*/
 }
 
 .contentSectionCont{
-  margin-top: 40vmin; /*where the main content will start a bit after the nav bar*/
+  margin-top: 300px; /*where the main content will start a bit after the nav bar*/
 }
 
 .sectionHeader{
